@@ -2,12 +2,14 @@ body {
     margin: auto;
     width: 100%;
     height: 100%;
+    background-color: #ffff3f;
 }
 
 h1, h2, h3, h4 {
     text-align: center;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
 }
 
 ul, ol{
@@ -23,12 +25,12 @@ ul, ol{
     padding: 20px;
     font-size: 30px;
     font-weight: bold;
-    background-color: black;
+    background-color:#bfd200;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color:#000;
 }
 
 img {
@@ -47,6 +49,8 @@ figcaption {
     text-align: center;
 }
 
-p {
+p ,li {
+    color: #007f5f;
     font-size: 24px;
+    font-weight: bold;
 }
