@@ -52,17 +52,6 @@ img {
     height: 255px;
 }
 
-
-figcaption {
-    text-align: center;
-}
-
-p ,li {
-    color: #007f5f;
-    font-size: 24px;
-    font-weight: bold;
-}
-
 footer{
     height: 50px;
     display: flex;
@@ -70,4 +59,46 @@ footer{
     align-items: center;
     color: white;
     font-weight: 900;
+}
+
+/* Recipe pages style*/
+
+.recipes-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0;
+}
+
+figcaption {
+    padding: 15px 30%;
+    text-align:justify;
+}
+
+p{
+    color: white;
+    font-weight: 900;
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ingredients ul, ol{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 25%;
+    gap: 10px;
+    background-color:#c1d2004c;
+    color: white;
+    font-weight: 700;
+    text-align: justify;
+    
+    list-style:upper-roman;
+}
+
+.ingredients ul{
+    list-style-type:square;
 }
