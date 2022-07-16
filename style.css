@@ -1,49 +1,57 @@
 body {
     width: 100%;
     height: 100vh;
-    background-color: #ffff3f;
+    background-color: #39392d;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2, h3, h4 {
     text-align: center;
-    font-weight: bold;
+    font-weight: 900;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #000;
+    color: rgb(251, 250, 250);
 }
 
 ul, ol{
+    list-style: none;
+    display: flex;
     text-align: center;
-    margin-top: 50px; 
-    list-style-position: inside;
+    margin: 0px; 
+    padding: 18px;
+    justify-content: space-around;
+    background-color:#c1d2006d;
 }
 
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    flex: 1;
+}
 
 #homepage-list li {
-    display: inline;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 36px;
     font-weight: bold;
-    background-color:#bfd200;
+    flex: 1;
 }
 
 a {
     text-decoration: none;
-    color:#000;
+    color:rgb(255, 255, 255);
 }
 
 img {
-    margin: 20px;
-    width: 150px;
+    margin: 0px;
+    width: 300px;
     height: 255px;
 }
 
-.images {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 
 figcaption {
     text-align: center;
@@ -53,4 +61,13 @@ p ,li {
     color: #007f5f;
     font-size: 24px;
     font-weight: bold;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 900;
 }
